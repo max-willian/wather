@@ -15,23 +15,23 @@
 var dataCacheName = 'weatherData-v2';
 var cacheName = 'weatherPWA-final-2';
 var filesToCache = [
-  '/your-first-pwapp-master/final/',
-  '/your-first-pwapp-master/final/index.html',
-  '/your-first-pwapp-master/final/scripts/app.js',
-  '/your-first-pwapp-master/final/styles/inline.css',
-  '/your-first-pwapp-master/final/images/clear.png',
-  '/your-first-pwapp-master/final/images/cloudy-scattered-showers.png',
-  '/your-first-pwapp-master/final/images/cloudy.png',
-  '/your-first-pwapp-master/final/images/fog.png',
-  '/your-first-pwapp-master/final/images/ic_add_white_24px.svg',
-  '/your-first-pwapp-master/final/images/ic_refresh_white_24px.svg',
-  '/your-first-pwapp-master/final/images/partly-cloudy.png',
-  '/your-first-pwapp-master/final/images/rain.png',
-  '/your-first-pwapp-master/final/images/scattered-showers.png',
-  '/your-first-pwapp-master/final/images/sleet.png',
-  '/your-first-pwapp-master/final/images/snow.png',
-  '/your-first-pwapp-master/final/images/thunderstorm.png',
-  '/your-first-pwapp-master/final/images/wind.png'
+  '/',
+  'index.html',
+  'scripts/app.js',
+  'styles/inline.css',
+  'images/clear.png',
+  'images/cloudy-scattered-showers.png',
+  'images/cloudy.png',
+  'images/fog.png',
+  'images/ic_add_white_24px.svg',
+  'images/ic_refresh_white_24px.svg',
+  'images/partly-cloudy.png',
+  'images/rain.png',
+  'images/scattered-showers.png',
+  'images/sleet.png',
+  'images/snow.png',
+  'images/thunderstorm.png',
+  'images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
