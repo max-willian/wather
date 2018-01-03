@@ -163,6 +163,7 @@
    * Then, getForecast() goes to the network for fresh data. If the network
    * request goes through, then the card gets updated a second time with the
    * freshest data.
+   * https://query.yahooapis.com/v1/public/yql?format=json&q=select * from weather.forecast where woeid=440495
    */
   app.getForecast = function(key, label) {
     var statement = 'select * from weather.forecast where woeid=' + key;
@@ -293,8 +294,8 @@
    * discussion.
    */
   var initialWeatherForecast = {
-    key: '2459115',
-    label: 'New York, NY',
+    key: '455827',
+    label: 'São Paulo, SP',
     created: '2016-07-22T01:00:00Z',
     channel: {
       astronomy: {
